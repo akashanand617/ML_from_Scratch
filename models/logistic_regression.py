@@ -10,7 +10,7 @@ class LogisticRegression:
         self.weights=None
     def fit(self,X,y):
         self.weights=np.zeros(X.shape[1]+1)#for bias
-        X=np.hstack(np.ones((X.shape[0],1)),X)#adding bias term in the matrix itself instead of updating it separately
+        X=np.hstack((np.ones((X.shape[0],1)),X))#adding bias term in the matrix itself instead of updating it separately
         for i in range(self.epochs):
             z= X @ self.weights
             g=sigmoid(z)
