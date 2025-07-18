@@ -1,0 +1,49 @@
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+.idea/
+*.egg-info/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Notebooks checkpoint files
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+
+# Model artifacts
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+
+# Logs and reports
+*.log
+*.out
+logs/
+wandb/
+
+# Build and dist
+build/
+dist/
+*.egg
+.eggs/
+MANIFEST
+
+# Pip files
+pip-wheel-metadata/
